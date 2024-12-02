@@ -1,0 +1,17 @@
+companyName should be declared using const and not let
+mostProfitableNeighborhood is declared as equal to Chelsea
+The test is expecting the variable mostProfitableNeighborhood to be declared and initialized, but it isn't defined in the code.
+Ensure that mostProfitableNeighborhood is declared and assigned the value 'Chelsea',
+The test expects mostProfitableNeighborhood to be defined with let, but in your code, it's either not defined or declared with a different keyword.
+Solution: Declare mostProfitableNeighborhood using let
+ReferenceError: companyCeo is not defined
+Cause: The test expects the variable companyCeo to be declared and initialized, but it isn't defined in your code.
+Solution: Define companyCeo and assign it the value 'Susan Smith', like this:
+// Declare companyName using const
+const companyName = 'Scuber';
+
+// Declare mostProfitableNeighborhood using let and assign the value 'Chelsea'
+let mostProfitableNeighborhood = 'Chelsea';
+
+// Declare companyCeo using let and assign the value 'Susan Smith'
+let companyCeo = 'Susan Smith';
